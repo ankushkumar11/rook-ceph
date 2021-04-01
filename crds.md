@@ -1,9 +1,4 @@
-##############################################################################
-# Create the CRDs that are necessary before creating your Rook cluster.
-# These resources *must* be created before the cluster.yaml or their variants.
-##############################################################################
-
----
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -366,8 +361,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -439,8 +434,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -6734,8 +6729,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -7575,8 +7570,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -8817,8 +8812,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -9724,8 +9719,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -9793,8 +9788,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -11251,8 +11246,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -11324,8 +11319,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -11388,8 +11383,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -11765,8 +11760,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -12630,7 +12625,8 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -12674,7 +12670,8 @@ spec:
               x-kubernetes-preserve-unknown-fields: true
       subresources:
         status: {}
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -12743,8 +12740,8 @@ spec:
               x-kubernetes-preserve-unknown-fields: true
       subresources:
         status: {}
-
----
+```
+```
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
@@ -12815,3 +12812,4 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
+  ```
